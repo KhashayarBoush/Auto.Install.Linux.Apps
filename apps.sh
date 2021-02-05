@@ -25,4 +25,4 @@ sudo apt-get install tmux netcat aircrack-ng macchanger git cmatrix curl wget
 sudo apt-get install slurm php libapache2-mod-php
 sudo apt-get install php-mysql php-curl php-json php-gd php-zip 
 sudo apt-get install php-mbstring apache2 php libapache2-mod-php mysql-server 
-sudo apt-get install php-mysql 
+sudo apt-get install php-mysql mplayer
