@@ -16,7 +16,8 @@ sudo pip3 install -U jupyter
 sudo pip3 install -U virtualenv
 
 sudo apt-get install renger trash-cli neofetch ncdu npm nodejs node
-sudo apt-get install hollywood
+sudo apt-get install hollywood xterm fortune cowsay lolcat xcowsay
+sudo apt-get install figlet toilet
 sudo apt-get install stacer zsh mc tilix openssh-server openssh-client 
 sudo apt-get install openvpn wireguard tmux links aria2 lynx axel htop
 sudo apt-get install iftop tcpdump wireshark vim gedit nano mc nautilus 
