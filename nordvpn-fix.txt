@@ -1,0 +1,22 @@
+nordvpnd.service fails to start on linux
+SOLVED
+
+This might only be for arch-based distros (Manjaro here). NordVPN Version 3.8.8 from the AUR.
+
+If nordpvnd.service is erroring out, a simple journalctl -xe will give you a clue
+
+nordvpnd.socket: Failed to resolve group nordvpn: No such process
+
+You simply just need to add the group nordvpn and append it to your user account. As root or via sudo just do the following
+
+groupadd nordvpn
+
+usermod -aG nordvpn your_username
+
+Then restart the service.
+
+systemctl restart nordvpnd.service
+
+You'll need to logout and log back in before your user picks up the nordvpn group. You should now be good to go.
+
+EDIT: formatting was jacked up on the mobile reddit app

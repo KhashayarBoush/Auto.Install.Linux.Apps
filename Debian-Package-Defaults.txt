@@ -1,0 +1,40 @@
+sudo apt install stacer zsh mc tilix
+#----------------------------------- 
+sudo apt install 		openvpn wireguard tmux links 
+#----------------------------------- 
+sudo apt install 	openssh-server openssh-client 
+#----------------------------------- 
+sudo apt install 			aria2 lynx axel htop iftop 
+#-----------------------------------  
+sudo apt install 				tcpdump wireshark vim gedit 
+#-----------------------------------  
+sudo apt install 					nano mc nautilus vlc kazam 
+#-----------------------------------  
+sudo apt install				 python3 python python3-pip 
+#-----------------------------------  
+sudo apt install			 youtube-dl rsync tor 	
+#-----------------------------------  
+sudo apt install 		gparted net-tools vsftpd 
+#-----------------------------------  
+sudo apt install 	zip unzip rar unrar 
+#-----------------------------------  
+sudo apt install openvpn openssl nmap 	
+#-----------------------------------  
+sudo apt install 	virtualbox gimp php 
+#-----------------------------------  
+sudo apt install 		libapache2-mod-php apache2 tmux 
+#-----------------------------------  
+sudo apt install 			netcat aircrack-ng macchanger 
+#-----------------------------------  
+sudo apt install 				git cmatrix curl wget slurm
+#-----------------------------------  
+sudo apt install 					 php libapache2-mod-php php-mysql
+#-----------------------------------  
+sudo apt install 				php-curl php-json php-gd 	
+#-----------------------------------  
+sudo apt install 			php-zip php-mbstring apache2 
+#-----------------------------------  
+sudo apt install 		php libapache2-mod-php 
+#-----------------------------------  
+sudo apt install 	mysql-server php-mysql 
+#-----------------------------------  

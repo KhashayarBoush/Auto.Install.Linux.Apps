@@ -47,4 +47,7 @@ sudo apt-get install lm-sensors -y
 
 sudo apt install hardinfo -y 
 
-sudo apt install whatweb proxychains whois nikto nmap 
+sudo apt install whatweb proxychains whois nikto nmap
+
+sudo apt install jcal aptitude
+

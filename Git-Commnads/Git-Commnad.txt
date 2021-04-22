@@ -1,0 +1,86 @@
+
+#--> Cretae A Git config 
+~ git init 
+------------------------
+
+#--> Status of file 
+~ git status
+------------------------
+
+#--> Add git file
+~ git add [filename] 
+~ git add -A <-- Add All File to Git project
+------------------------
+
+#--> coomit git to save changes 
+~ git commit -m [commit message]
+-----------------------
+
+#--> git Log files
+~ git log
+-----------------------
+
+#--> see change in file 
+~ git diff HEAD
+~ git diff --staged
+-----------------------
+
+#--> delete file from staged mood
+~ git reset [filename]
+-----------------------
+
+#--> revers file to last change
+~ git checkout -- [filename]
+-----------------------
+
+#--> branchs for Cretae other version to projects
+~ git branch
+~ git branch [new branch name]
+~ git checkout [branch name]
+~ git merge [branch name]
+-----------------------
+
+#--> sync your project with github or other git sites
+~ git push origin [branch name Ex:master]
+~ git pull oritin [branch name]
+-----------------------
+
+#--> add version with TAG's
+~ git tag -a v1.0 -m "new tag v1"
+~ git tag
+~ git tag -a v2.0 [log hash id]
+
+#--> show tags
+~ git tag -l "v*"
+~ git show v1.0
+~ git push origin --tags
+~ git checkout [tag version]
+------------------------
+
+#--> Create GPG KEY
+~ gpg --list-key
+~ gpg --gen-key
+~ gpg --list-secret-key --keyid-format LONG
+------------------------
+
+#--> change Config Git
+~ git config --global [Ex:user.name]
+-----------------------
+
+#--> ADD GPG Key to git
+~ git config --global [Ex:user.signinkey] [signinkey]
+-----------------------
+
+#--> create Tag With GPG Key
+~ git tag -s v2.0 -m [message]
+~ git show v2.0
+~ git -v v2.0 
+-----------------------
+
+#--> Create Commit with GPG Key
+~ git commit -S -m [message]
+-----------------------
+
+#--> DBug Commands
+~ git blame
+~ git bitset
