@@ -49,5 +49,9 @@ sudo apt install hardinfo -y
 
 sudo apt install whatweb proxychains whois nikto nmap
 
+sudo apt-get install multitail
+
+sudo apt-get install -y whowatch darkstat
+
 sudo apt install jcal aptitude
 
